@@ -34,8 +34,8 @@ public class TesteEcfFiscal {
 
 			sb = GerarEcfFiscal.gerar(ecfFiscal, sb);
 
-			System.out.println("			GERAÇÃO SPED - ECF FISCAL			");
-			System.out.println("	");
+			System.out.println("GERAÇÃO ECF FISCAL");
+			System.out.println("------------------");
 			System.out.println(sb.toString());
 
 			SimpleDateFormat formatoDt = new SimpleDateFormat("dd_MM_yyyy_HH_mm");

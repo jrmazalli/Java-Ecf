@@ -126,14 +126,14 @@ public class PrincipalTesteFiscal {
 		Registro0000 registro0000 = new Registro0000();
 		registro0000.setNome_esc("LECF");
 		registro0000.setCod_ver("0006");
-		registro0000.setCnpj("03209087000108");
-		registro0000.setNome("AFG BRASIL SA");
+		registro0000.setCnpj("00000000000000");
+		registro0000.setNome("CLIENTE TESTE LTDA");
 		registro0000.setInd_sit_ini_per("0");
 		registro0000.setSit_especial("0");
 		registro0000.setPat_reman_cis("");
 		registro0000.setDt_sit_esp("");
-		registro0000.setDt_ini("01012019");
-		registro0000.setDt_fin("31122019");
+		registro0000.setDt_ini("01012021");
+		registro0000.setDt_fin("31122021");
 		registro0000.setRetificadora("N");
 		registro0000.setNum_rec("");
 		registro0000.setTip_ecf("0");
@@ -210,16 +210,16 @@ public class PrincipalTesteFiscal {
 	public static Bloco0 preencheRegistro0930(Bloco0 bloco0) {
 		Registro0030 registro0030 = new Registro0030();
 		registro0030.setCod_nat("2054");
-		registro0030.setCnae_fiscal("4632001");
-		registro0030.setEndereco("RUA RUA BARAO DE MELGACO");
-		registro0030.setNum("2754");
-		registro0030.setCompl("ED. WORK TOWER SALA 1006");
+		registro0030.setCnae_fiscal("4030000");
+		registro0030.setEndereco("RUA TESTE");
+		registro0030.setNum("2050");
+		registro0030.setCompl("");
 		registro0030.setBairro("PORTO");
-		registro0030.setUf("MT");
-		registro0030.setCod_mun("5103403");
-		registro0030.setCep("78020800");
-		registro0030.setNum_tel("18 33021555");
-		registro0030.setEmail("afg@afgbrasil.com.br");
+		registro0030.setUf("SP");
+		registro0030.setCod_mun("0000000");
+		registro0030.setCep("00000000");
+		registro0030.setNum_tel("18 33021000");
+		registro0030.setEmail("admin@ecoded.com.br");
 		bloco0.setRegistro0030(registro0030);
 		return bloco0;
 	}
@@ -227,12 +227,12 @@ public class PrincipalTesteFiscal {
 
 	public static Bloco0 preencheRegistro0030(Bloco0 bloco0) {
 		Registro0930 registro0930 = new Registro0930();
-		registro0930.setIdent_nom("LUCAS DA SILVA GONCALVES");
-		registro0930.setIdent_cpf_cnpj("36686362816");
+		registro0930.setIdent_nom("TESTE CONTADOR");
+		registro0930.setIdent_cpf_cnpj("00000000000");
 		registro0930.setIdent_qualif("900");
-		registro0930.setInd_crc("288626O4");
-		registro0930.setEmail("contador@afgbrasil.com.br");
-		registro0930.setFone("1833221555");
+		registro0930.setInd_crc("000000O0");
+		registro0930.setEmail("admin@ecoded.com.br");
+		registro0930.setFone("1833221000");
 		bloco0.getRegistro0930().add(registro0930);
 		//bloco0.setRegistro0930(registro0930);
 		return bloco0;
@@ -273,10 +273,10 @@ public class PrincipalTesteFiscal {
 	public static BlocoC preencheRegistroC040(BlocoC blocoC) {
 		RegistroC040 registroC040 = new RegistroC040();
 		registroC040.setHash_ecd("8152EA2A0D523373D2D160449314DAA94CC7ABBC");
-		registroC040.setDt_ini("01012019");
-		registroC040.setDt_fin("31122019");
+		registroC040.setDt_ini("01012021");
+		registroC040.setDt_fin("31122021");
 		registroC040.setInd_sit_esp("");
-		registroC040.setCnpj("03209087000108");
+		registroC040.setCnpj("0320900000000");
 		registroC040.setNum_ord("21");
 		registroC040.setNire("51300005123");
 		registroC040.setNat_livr("Escrituracao Contabil Digital do Livro Diario Geral");
@@ -288,7 +288,7 @@ public class PrincipalTesteFiscal {
 
 	public static BlocoC preencheRegistroC050(BlocoC blocoC) {
 		RegistroC050 registroC050 = new RegistroC050();
-		registroC050.setDt_alt("31122016");
+		registroC050.setDt_alt("31122020");
 		registroC050.setCod_nat("01");
 		registroC050.setInd_cta("S");
 		registroC050.setNivel("1");
@@ -521,7 +521,7 @@ public class PrincipalTesteFiscal {
 		RegistroJ100 registroJ100 = new RegistroJ100();
 		registroJ100.setDt_alt("01102016");
 		registroJ100.setCod_ccus("13");
-		registroJ100.setCcus("AFG IMBITUBA S/A");
+		registroJ100.setCcus("TESTE S/A");
 
 		blocoJ.getRegistroJ100().add(registroJ100);
 		return blocoJ;
@@ -1206,8 +1206,8 @@ public class PrincipalTesteFiscal {
 		registroY600.setDt_fim_soc("");
 		registroY600.setPais("105");
 		registroY600.setInd_qualif("PF");
-		registroY600.setCpf_cnpj("07464439864");
-		registroY600.setNom_emp("CLAUDIA M. F. LOBACZEWSKI ALVES");
+		registroY600.setCpf_cnpj("0000000");
+		registroY600.setNom_emp("CORINGA DA SILVA");
 		registroY600.setQualif("01");
 		registroY600.setPerc_cap_tot("80");
 		registroY600.setPerc_cap_vot("80");
