@@ -5,7 +5,6 @@ public class Registro0010 {
 	private final String reg = "0010";
 	private String hash_ecf_anterior;
 	private String opt_refis;
-	private String opt_paes;
 	private String forma_trib;
 	private String forma_apur;
 	private String cod_qualif_pj;
@@ -31,14 +30,6 @@ public class Registro0010 {
 
 	public void setOpt_refis(String opt_refis) {
 		this.opt_refis = opt_refis;
-	}
-
-	public String getOpt_paes() {
-		return opt_paes;
-	}
-
-	public void setOpt_paes(String opt_paes) {
-		this.opt_paes = opt_paes;
 	}
 
 	public String getForma_trib() {

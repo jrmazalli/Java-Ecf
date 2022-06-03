@@ -15,12 +15,9 @@ public class Registro0020 {
 	private String ind_luc_exp;
 	private String ind_red_isen;
 	private String ind_fin;
-	private String ind_doa_eleit;
 	private String ind_part_colig;
-	private String ind_vend_exp;
 	private String ind_rec_ext;
 	private String ind_ativ_ext;
-	private String ind_com_exp;
 	private String ind_pgt_ext;
 	private String ind_ecom_ti;
 	private String ind_roy_rec;
@@ -133,28 +130,12 @@ public class Registro0020 {
 		this.ind_fin = ind_fin;
 	}
 
-	public String getInd_doa_eleit() {
-		return ind_doa_eleit;
-	}
-
-	public void setInd_doa_eleit(String ind_doa_eleit) {
-		this.ind_doa_eleit = ind_doa_eleit;
-	}
-
 	public String getInd_part_colig() {
 		return ind_part_colig;
 	}
 
 	public void setInd_part_colig(String ind_part_colig) {
 		this.ind_part_colig = ind_part_colig;
-	}
-
-	public String getInd_vend_exp() {
-		return ind_vend_exp;
-	}
-
-	public void setInd_vend_exp(String ind_vend_exp) {
-		this.ind_vend_exp = ind_vend_exp;
 	}
 
 	public String getInd_rec_ext() {
@@ -171,14 +152,6 @@ public class Registro0020 {
 
 	public void setInd_ativ_ext(String ind_ativ_ext) {
 		this.ind_ativ_ext = ind_ativ_ext;
-	}
-
-	public String getInd_com_exp() {
-		return ind_com_exp;
-	}
-
-	public void setInd_com_exp(String ind_com_exp) {
-		this.ind_com_exp = ind_com_exp;
 	}
 
 	public String getInd_pgt_ext() {
@@ -296,7 +269,7 @@ public class Registro0020 {
 	public Registro0021 getRegistro0021() {
 		return registro0021;
 	}
-	
+
 	public void setRegistro0021(Registro0021 registro0021) {
 		this.registro0021 = registro0021;
 	}
