@@ -1,5 +1,7 @@
 package br.com.ecoded.ecf.fiscal.bo.blocoC;
 
+import java.util.Optional;
+
 import br.com.ecoded.ecf.fiscal.registros.EcfFiscal;
 import br.com.ecoded.ecf.fiscal.registros.blocoC.RegistroC040;
 import br.com.ecoded.ecf.fiscal.util.Util;
@@ -16,7 +18,7 @@ public class GerarRegistroC040 {
 		sb.append("|").append(Util.preencheRegistro(registroC040.getNum_ord()));
 		sb.append("|").append(Util.preencheRegistro(registroC040.getNire()));
 		sb.append("|").append(Util.preencheRegistro(registroC040.getNat_livr()));
-		sb.append("|").append(Util.preencheRegistro(registroC040.getCod_ver_lc()));
+		sb.append("|").append(Util.preencheRegistro(Optional.ofNullable(registroC040.getCod_ver_lc()).orElse(Util.getCodVersao(ecfFiscal))));
 		sb.append("|").append(Util.preencheRegistro(registroC040.getInd_esc()));
 		sb.append("|").append('\n');
 		return sb;

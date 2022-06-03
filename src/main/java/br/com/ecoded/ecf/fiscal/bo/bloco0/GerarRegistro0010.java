@@ -9,7 +9,6 @@ public class GerarRegistro0010 {
 		sb.append("|").append(Util.preencheRegistro(registro0010.getReg()));
 		sb.append("|").append(Util.preencheRegistro(registro0010.getHash_ecf_anterior()));
 		sb.append("|").append(Util.preencheRegistro(registro0010.getOpt_refis()));
-		sb.append("|").append(Util.preencheRegistro(registro0010.getOpt_paes()));
 		sb.append("|").append(Util.preencheRegistro(registro0010.getForma_trib()));
 		sb.append("|").append(Util.preencheRegistro(registro0010.getForma_apur()));
 		sb.append("|").append(Util.preencheRegistro(registro0010.getCod_qualif_pj()));

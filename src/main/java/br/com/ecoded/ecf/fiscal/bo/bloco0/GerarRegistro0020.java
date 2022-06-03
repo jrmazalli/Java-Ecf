@@ -19,12 +19,9 @@ public class GerarRegistro0020 {
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_luc_exp()));
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_red_isen()));
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_fin()));
-		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_doa_eleit()));
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_part_colig()));
-		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_vend_exp()));
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_rec_ext()));
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_ativ_ext()));
-		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_com_exp()));
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_pgt_ext()));
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_ecom_ti()));
 		sb.append("|").append(Util.preencheRegistro(registro0020.getInd_roy_rec()));
